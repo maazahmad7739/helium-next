@@ -1,0 +1,113 @@
+{
+  "slug": "your-retargeting-audiences-are-destroying-roas-the-session-intelligence-fix",
+  "title": "Your Retargeting Audiences Are Destroying ROAS: The Session Intelligence Fix",
+  "seoTitle": "Your Retargeting Audiences Are Destroying ROAS: The Session Intelligence Fix - AI Personalization for eCommerce | Helium - Increase Conversions 30%",
+  "description": "- In 2025, every wasted impression directly cuts into margin → personalisation is now a performance channel, not a…",
+  "type": "blog",
+  "date": "2025-10-14",
+  "dateLabel": "Oct 14, 2025",
+  "author": "Helium",
+  "readTime": 5,
+  "category": "Guide",
+  "tags": ["D2C", "AI Personalization"],
+  "ogImage": "/content/blogs/your-retargeting-audiences-are-destroying-roas-the-session-intelligence-fix/LRLIKwtZETqOe1ulIYsYpw6Y8o.webp",
+  "hero": {
+    "src": "/content/blogs/your-retargeting-audiences-are-destroying-roas-the-session-intelligence-fix/LRLIKwtZETqOe1ulIYsYpw6Y8o.webp",
+    "alt": "Your Retargeting Audiences Are Destroying ROAS: The Session Intelligence Fix",
+    "w": 960,
+    "h": 540
+  },
+  "page": {
+    "bg": "#faf9f8",
+    "pageHeight": 7751,
+    "contentX": 352.5,
+    "contentW": 735
+  },
+  "blocks": [
+    { "type": "h1", "text": "Your Retargeting Audiences Are Destroying ROAS: The Session Intelligence Fix" },
+    { "type": "date", "text": "Oct 14, 2025" },
+    { "type": "hero-image", "src": "/content/blogs/your-retargeting-audiences-are-destroying-roas-the-session-intelligence-fix/LRLIKwtZETqOe1ulIYsYpw6Y8o.webp", "alt": "Your Retargeting Audiences Are Destroying ROAS: The Session Intelligence Fix", "w": 960, "h": 540 },
+    { "type": "h3", "text": "Introduction" },
+    { "type": "ul", "items": ["41% of marketing budgets are wasted due to poor targeting【Statista 2023】", "Retargeting lists built on cart views leads to inflated costs for low-intent shoppers", "CACs have increased 222% over the past 8 years【Profitwell/Zuora 2023】", "In 2025, every wasted impression directly cuts into margin → personalisation is now a performance channel, not a widget"] },
+    { "type": "h2", "text": "Why Your Retargeting Audiences Are Bloated (And Expensive)" },
+    { "type": "p", "text": "Most ecommerce brands build retargeting audiences like this:" },
+    { "type": "ul", "items": ["Cart abandoners: Anyone who added a product (12,000 users)", "Product viewers: Anyone who spent 10+ seconds on a PDP (28,000 users)", "Site visitors: Anyone who landed on the homepage (45,000 users)"] },
+    { "type": "p", "text": "Sounds smart. Bigger audience = more conversions, right? Wrong. Here’s what actually happens when you retarget everyone:" },
+    { "type": "h3", "text": "Bot traffic inflates your audience" },
+    { "type": "p", "text": "GA4 shows 12,000 “cart abandoners.” But 4,500 of them are bots, scrapers, or click fraud. They triggered your pixel, entered your retargeting pool, and cost you $9,450 in wasted impressions last month. They will never convert. Ever." },
+    { "type": "h3", "text": "Low-intent sessions dilute your signal" },
+    { "type": "p", "text": "A user spent 12 seconds on your PDP. Meta sees “engaged visitor.” But they were actually comparison shopping—they opened your product page in one tab and four competitor pages in others. They have zero purchase intent. Retargeting them costs $2.10 per click and converts at 0.3%." },
+    { "type": "h3", "text": "Friction-exposed sessions poison the pool" },
+    { "type": "p", "text": "A mobile user added your product to cart, but your checkout page took 8 seconds to load on their 3G connection. They bounced. Meta added them to your “high-intent” retargeting list. You just paid $1.85 to show them an ad for a product they couldn’t buy because your site failed them." },
+    { "type": "p", "text": "Do the math and you’re paying Meta to chase 8,820 people who will never convert. This is why your ROAS is tanking. Why Meta’s algorithm can’t fix this Meta’s algorithm optimizes for engagement, not conversion intent. It doesn’t know that:" },
+    { "type": "ul", "items": ["User A is a bot", "User B only buys during 30%-off sales", "User C hit an out-of-stock page before abandoning cart"] },
+    { "type": "p", "text": "All Meta sees is “these users engaged with your site.” So it serves them impressions. And you pay for it. The only way to fix this is to filter your audience before it hits Meta’s system." },
+    { "type": "h2", "text": "How Session Intelligence Protects ROAS" },
+    { "type": "p", "text": "Not all sessions are created equal. Two people can visit your PDP, spend 15 seconds, and bounce—but one might be 10X more likely to convert than the other." },
+    { "type": "p", "text": "The difference? Intent signals." },
+    { "type": "p", "strong": true, "text": "How traditional analytics miss the point" },
+    { "type": "p", "text": "GA4 tells you:" },
+    { "type": "ul", "items": ["Session duration: 2m 14s", "Pages viewed: 4", "Bounce rate: 65%"] },
+    { "type": "p", "text": "But it doesn’t tell you:" },
+    { "type": "ul", "items": ["Did they compare product variants or just scroll?", "Did they check your shipping policy or return terms?", "Did they hover over “Add to Cart” or ignore it completely?", "Did they open your size guide or bounce at the first image?"] },
+    { "type": "image", "src": "/content/blogs/your-retargeting-audiences-are-destroying-roas-the-session-intelligence-fix/zYDpIm2NDBo1BlM0Q0ue4rL5L8.jpeg", "alt": "", "w": 728, "h": 409.5 },
+    { "type": "h3", "text": "The signals that actually matter" },
+    { "type": "p", "text": "These micro-behaviors reveal intent. And intent determines who’s worth retargeting." },
+    { "type": "p", "text": "High-intent sessions exhibit patterns like:" },
+    { "type": "ul", "items": ["Variant comparison: Switched between colors, sizes, or models", "Trust validation: Checked shipping estimates, return policies, or reviews", "Price confirmation: Viewed product multiple times across sessions or devices", "Checkout probing: Clicked “Add to Cart,” viewed cart page, started checkout", "Behavioral velocity: Moved through funnel quickly (decisive, not browsing)"] },
+    { "type": "p", "text": "Low-intent sessions look like:" },
+    { "type": "ul", "items": ["Linear scrolling with no interaction", "Single-page visit with immediate exit", "Rapid tab-switching (comparison shopping)", "Mobile visit with slow network (friction-exposed)", "Geo mismatch (international visitor when you only ship domestically)"] },
+    { "type": "p", "text": "Session quality scoring assigns a 0–100 likelihood score to every visitor based on these signals:" },
+    { "type": "ul", "items": ["A score of 75 means this session is 75% likely to convert if retargeted.", "A score of 12 means you’re lighting money on fire."] },
+    { "type": "image", "src": "/content/blogs/your-retargeting-audiences-are-destroying-roas-the-session-intelligence-fix/PzpMdvIXvZqXB7N7GuYCyoiBII.png", "alt": "", "w": 713.5, "h": 375.3 },
+    { "type": "h3", "text": "Part 3: The Retargeting Audit Framework" },
+    { "type": "p", "html": "Here’s how to find the waste in your current retargeting setup.<br/><br/>Step 1: Run a session quality audit" },
+    { "type": "ul", "items": ["Check for <strong>bot traffic</strong> (20–40% of “engaged” audience)", "Flag <strong>friction-exposed sessions</strong> (OOS, mobile latency, checkout errors)", "Identify <strong>discount-dependent shoppers</strong>", "Remove <strong>geo/device mismatches</strong> (e.g., Canada traffic when you only ship US)"] },
+    { "type": "h3", "text": "Step 2: Score and segment" },
+    { "type": "p", "text": "Instead of one massive “cart abandoner” audience, build tiered lists:" },
+    { "type": "image", "src": "/content/blogs/your-retargeting-audiences-are-destroying-roas-the-session-intelligence-fix/gM3K9oMPWfLIiOeHkR14rXfUQes.png", "alt": "", "w": 728, "h": 361.5 },
+    { "type": "p", "html": "<strong>Old retargeting strategy:</strong> Spend equally across all 12,000 users.<br/><strong>New strategy:</strong> Allocate 70% of budget to Tier 1, 25% to Tier 2, suppress Tier 3 entirely." },
+    { "type": "h3", "text": "Step 3: Sync to your ad platforms" },
+    { "type": "p", "text": "Most brands can’t manually filter 50,000 sessions. This is where automation matters." },
+    { "type": "p", "text": "Pulse syncs scored audiences directly to Meta/Google:" },
+    { "type": "ul", "items": ["High-intent sessions → Priority retargeting campaigns", "Low-intent sessions → Suppressed from ad delivery", "Friction-exposed sessions → Flagged for site fixes (don’t retarget until the issue is resolved)"] },
+    { "type": "p", "text": "Auto-refresh weekly so your audiences stay clean as new sessions roll in." },
+    { "type": "h2", "text": "Stop Paying to Chase Bad Sessions" },
+    { "type": "p", "text": "Here’s what most brands get wrong about retargeting: They think the problem is creative fatigue, audience saturation, or iOS privacy changes." },
+    { "type": "p", "text": "The real problem is they’re paying Meta to chase people who were never going to convert." },
+    { "type": "p", "text": "Bots. Window shoppers. Discount hunters. Friction-exposed sessions. Every wasted impression inflates your CPC, dilutes your signal, and tanks your ROAS." },
+    { "type": "p", "text": "The fix isn’t more budget. It’s better audience definition. Session intelligence lets you:" },
+    { "type": "ul", "items": ["Filter out bot traffic before it costs you money", "Score every session on conversion likelihood (not just “engagement”)", "Suppress low-intent visitors from retargeting pools", "Catch friction issues before they poison your audiences"] },
+    { "type": "p", "text": "The brands winning on paid media in 2025 aren’t spending more." },
+    { "type": "p", "html": "They’re spending smarter. See how session intelligence protects ROAS in 4 weeks.&nbsp;<a href=\"../pulse\">Book a demo</a>!" }
+  ],
+  "otherBlogs": {
+    "heading": "Other Blogs",
+    "cards": [
+      {
+        "label": "PLAYBOOK",
+        "title": "AI Shopping Readiness for Shopify Brands in India",
+        "href": "/blogs/ai-shopping-readiness-for-shopify-brands-in-india",
+        "image": "https://framerusercontent.com/images/sZpz7n2lmt1NPggQA9Lo3Auu510.png?scale-down-to=1024&width=1536&height=1024"
+      },
+      {
+        "label": "BDD",
+        "title": "D2C or DTC: What Indian Brands Should Talk About When They Go Direct",
+        "href": "/blogs/d2c-or-dtc-what-indian-brands-should-talk-about-when-they-go-direct",
+        "image": "https://framerusercontent.com/images/cThhntNn5fp8onw2Se2gib7CpqM.png?scale-down-to=512&width=1672&height=941"
+      },
+      {
+        "label": "GUIDE",
+        "title": "Top 10 Personalisation Strategies to Boost D2C Conversion Rates in India",
+        "href": "/blogs/top-10-personalisation-strategies-to-boost-d2c-conversion-rates-in-india",
+        "image": "https://framerusercontent.com/images/rs6RKrjLeToYBAFe5JOC4gUQaVw.png?scale-down-to=512&width=1672&height=941"
+      },
+      {
+        "label": "GUIDE",
+        "title": "Personalisation in eCommerce in the Age of Generative AI",
+        "href": "/blogs/generative-ai-personalisation-ecommerce",
+        "image": "https://framerusercontent.com/images/RaFL3ET34qWe5BUAeZrGNXtxzAk.png?scale-down-to=512&width=1672&height=941"
+      }
+    ]
+  }
+}

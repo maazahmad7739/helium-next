@@ -1,0 +1,831 @@
+{
+  "slug": "the-playbook-for-higher-roas-this-festive-season",
+  "title": "Quality-Weighted Retargeting: The Playbook for Higher ROAS This Festive Season",
+  "seoTitle": "Quality-Weighted Retargeting: The Playbook for Higher ROAS This Festive Season - AI Personalization for eCommerce | Helium - Increase Conversions 30%",
+  "description": "With costs surging and leadership expecting Christmas sales to deliver, retargeting becomes the default lever. The logic is simple: if someone added to…",
+  "type": "blog",
+  "date": "2025-12-23",
+  "dateLabel": "Dec 23, 2025",
+  "author": "Helium",
+  "readTime": 9,
+  "category": "Playbook",
+  "tags": [
+    "D2C",
+    "AI Personalization"
+  ],
+  "ogImage": "/content/blogs/the-playbook-for-higher-roas-this-festive-season/liEDBvZcvBDtpMWAlggrOJ4gw.webp",
+  "hero": {
+    "src": "/content/blogs/the-playbook-for-higher-roas-this-festive-season/liEDBvZcvBDtpMWAlggrOJ4gw.webp",
+    "alt": "Quality-Weighted Retargeting: The Playbook for Higher ROAS This Festive Season",
+    "w": 960,
+    "h": 536
+  },
+  "page": {
+    "bg": "#faf9f8",
+    "pageHeight": 15969,
+    "contentX": 352.5,
+    "contentW": 735
+  },
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Quality-Weighted Retargeting: The Playbook for Higher ROAS This Festive Season"
+    },
+    {
+      "type": "date",
+      "text": "Dec 23, 2025"
+    },
+    {
+      "type": "hero-image",
+      "src": "/content/blogs/the-playbook-for-higher-roas-this-festive-season/liEDBvZcvBDtpMWAlggrOJ4gw.webp",
+      "alt": "Quality-Weighted Retargeting: The Playbook for Higher ROAS This Festive Season",
+      "w": 960,
+      "h": 536
+    },
+    {
+      "type": "p",
+      "text": "With costs surging and leadership expecting Christmas sales to deliver, retargeting becomes the default lever. The logic is simple: if someone added to the cart or viewed a product, they must be worth chasing."
+    },
+    {
+      "type": "h2",
+      "text": "Why this matters in the last week of the year"
+    },
+    {
+      "type": "p",
+      "text": "Two things are true at the same time:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Most carts don’t convert. Average cart abandonment is ~70% and the top reasons are predictable: extra costs, slow delivery, trust, forced account creation, and long checkout.",
+        "Holiday traffic is mobile-heavy. Adobe expects mobile to drive ~56% of holiday online revenue and ~70% of retail site visits to happen on mobile"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So if you retarget “everyone who touched a product or cart”, you are mostly paying to re-show ads to:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "people who were surprised by shipping/taxes (39%)",
+        "people who decided delivery was too slow (21%)",
+        "people who didn’t trust the site (19%)",
+        "people who hit friction like forced login (19%)"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "And holiday auctions do get tighter. Tinuiti saw Meta CPM rise at least 11% each day from Thanksgiving through Cyber Monday, with ~12% up YoY across that window. Higher CPM + low-intent pools = you burn budget faster."
+    },
+    {
+      "type": "h2",
+      "text": "Dec 24 Mode: The 48-Hour Rescue Plan"
+    },
+    {
+      "type": "h3",
+      "text": "Hour 0–4: Stop the bleed"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kill any ad set that targets “All visitors 30 days” / “All ATC 30 days”",
+        "Build suppression (Browsers cohort below) and exclude it from every retargeting set",
+        "Shrink windows:<br/>High intent: 1–3 days<br/>Blockers: 3–7 days"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Hour 4–24: Rebuild around blockers"
+    },
+    {
+      "type": "p",
+      "text": "Launch 4 cohorts first:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Buy-Now (High Intent)",
+        "Delivery Blocked",
+        "Blocked Checkout",
+        "Cost Shock"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Hour 24–48: Rebalance daily"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Shift budget toward cohorts that are converting today",
+        "Cap frequency (don’t spam shrinking pools)",
+        "Fix overlap (don’t pay twice for the same people)"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Your 7-Day Implementation Plan (if you’re not in panic mode)"
+    },
+    {
+      "type": "p",
+      "strong": true,
+      "text": "Days 1–2: Foundation"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Instrument the 6 signals (Section 2)",
+        "Create 6 cohorts (Section 3)",
+        "Set exclusions so junk never hits paid"
+      ]
+    },
+    {
+      "type": "p",
+      "strong": true,
+      "text": "Days 3–4: Launch"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "High intent + blocked cohorts first",
+        "Short windows",
+        "Creative tied to the blocker (delivery vs cost vs payment)"
+      ]
+    },
+    {
+      "type": "p",
+      "strong": true,
+      "text": "Days 5–7: Optimise"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Overlap + frequency check daily",
+        "Shift budget based on cohort ROAS, not campaign names",
+        "Tighten thresholds so lists stay small but real"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Section 1: Why traditional retargeting breaks (especially this week)"
+    },
+    {
+      "type": "h3",
+      "text": "Cart views don’t equal purchase intent"
+    },
+    {
+      "type": "p",
+      "text": "A cart event can mean:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "“Checking shipping”",
+        "“Checking COD”",
+        "“Comparing total cost”",
+        "“Saving for later”",
+        "“I’ll buy after Christmas / after salary / after New Year”"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "And Baymard’s research makes the core truth unignorable: extra costs (39%) and delivery being too slow (21%) are major checkout drop drivers, alongside trust/payment/checkout friction."
+    },
+    {
+      "type": "p",
+      "text": "If your ads don’t reduce the blocker, you’re just buying impressions."
+    },
+    {
+      "type": "h3",
+      "text": "Identity noise inflates lists"
+    },
+    {
+      "type": "p",
+      "text": "Even “solid” lists get inflated by:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "the same shopper across devices",
+        "cookie resets",
+        "app vs web splits"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So your “big retargeting pool” is often fake scale."
+    },
+    {
+      "type": "h3",
+      "text": "The 10-minute Holiday Retargeting Audit (run this today)"
+    },
+    {
+      "type": "p",
+      "text": "1) Cart audience CVR vs site CVR If cart audience CVR is meaningfully lower than site CVR, your cart list is mixed with junk."
+    },
+    {
+      "type": "p",
+      "text": "2) Blocker coverage From cart/checkout sessions, what % did any of these happen?"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "shipping fee shown",
+        "delivery ETA / PIN check",
+        "payment options viewed",
+        "returns policy viewed"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If most sessions did none of these, your “warm” pool is mostly browsers."
+    },
+    {
+      "type": "p",
+      "text": "3) Audience overlap (Meta) Use Audience Overlap. If overlap is heavy, you’re paying twice."
+    },
+    {
+      "type": "p",
+      "text": "Bottom line: default “PDP/ATC retargeting” is not a strategy. It’s a leak."
+    },
+    {
+      "type": "h3",
+      "text": "Cookie and identity noise inflate lists"
+    },
+    {
+      "type": "p",
+      "text": "Even if you accept cart views as a starting point, identity gaps make lists unreliable:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Duplicate profiles appear when the same shopper browses from mobile, desktop, and app.",
+        "Cookie clearing creates “new” users, multiplying audience size without adding real buyers."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The result is a retargeting list that looks big but delivers very little. This false volume is one of the biggest hidden drains on Christmas budgets."
+    },
+    {
+      "type": "p",
+      "text": "Quick Audit: Check your Meta Ads Manager audience overlap tool. If cart abandoners and product viewers show >40% overlap, you’re double-counting users."
+    },
+    {
+      "type": "image",
+      "src": "/content/blogs/the-playbook-for-higher-roas-this-festive-season/3N8VXamspVNGv6bizrB6jiRww6c.webp",
+      "alt": "Holiday retargeting audience illustration",
+      "w": 446,
+      "h": 159
+    },
+    {
+      "type": "image",
+      "src": "/content/blogs/the-playbook-for-higher-roas-this-festive-season/ewXrRrfG2L9Cbc5SHThbAT5Sng.webp",
+      "alt": "Holiday retargeting performance illustration",
+      "w": 512,
+      "h": 341.5
+    },
+    {
+      "type": "h3",
+      "text": "The cost during Christmas"
+    },
+    {
+      "type": "p",
+      "text": "Here’s what this looks like in real terms:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Out of 10,000 cart viewers, only ~2,000 typically show real intent.",
+        "That leaves 8,000 wasted impressions.",
+        "If your CPM during Christmas is ₹250, and each shopper sees six retargeting impressions, that’s almost ₹2.4 lakh lost in a single day."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Multiply this across a 7–10 day push, and you’re burning through crores on people who were never going to buy."
+    },
+    {
+      "type": "h2",
+      "text": "Section 3: How to build quality-weighted retargeting cohorts"
+    },
+    {
+      "type": "p",
+      "text": "In Section 1, we broke down why cart views are unreliable: most of those audiences never convert, yet brands continue to chase them and burn lakhs during Christmas. The only way to stop that waste is to rebuild retargeting cohorts around session-level intent signals."
+    },
+    {
+      "type": "p",
+      "text": "Stop building audiences around “events.” Build audiences around reasons."
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Define exclusion rules (before anything else)"
+    },
+    {
+      "type": "p",
+      "text": "Exclude from paid retargeting:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "zero checkout probe",
+        "zero trust actions",
+        "no delivery check + no cost exposure",
+        "messy sessions (heavy backtracking + no forward step)"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That group can be nurtured on email/WhatsApp later — but it’s not worth peak-week paid retargeting."
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Build the 6 cohorts (this is the system)"
+    },
+    {
+      "type": "h3",
+      "text": "Cohort A: Buy-Now (High Intent)"
+    },
+    {
+      "type": "p",
+      "text": "Who: checkout probe + at least one trust action Window: 1–3 days Goal: purchase"
+    },
+    {
+      "type": "p",
+      "text": "Meta audience (example):"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Include: /cart OR /checkout",
+        "AND event: CheckoutProbe",
+        "AND TrustActions ≥ 1",
+        "Exclude: Purchasers (7 days)"
+      ]
+    },
+    {
+      "type": "image",
+      "src": "/content/blogs/the-playbook-for-higher-roas-this-festive-season/ZWkG9RCnEivu5S7FcO2gIYvk6Ig.png",
+      "alt": "Meta audience example screenshot",
+      "w": 683,
+      "h": 538
+    },
+    {
+      "type": "h3",
+      "text": "Cohort B: Delivery Blocked (NEW)"
+    },
+    {
+      "type": "p",
+      "text": "Who: they checked delivery, and it failed (too late / not available) Window: 3–5 days Goal: convert via alternate path (gift card / after-Christmas delivery / pickup)"
+    },
+    {
+      "type": "p",
+      "text": "Creative: be honest. If it won’t arrive by Christmas, don’t imply it."
+    },
+    {
+      "type": "h3",
+      "text": "Cohort C: Cost Shock"
+    },
+    {
+      "type": "p",
+      "text": "Who: total cost/shipping fee revealed → exit soon after Window: 3–7 days Goal: purchase"
+    },
+    {
+      "type": "p",
+      "text": "Creative:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "free shipping threshold",
+        "bundles that reduce shipping pain",
+        "“no hidden fees” clarity"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "(Baymard: extra costs are the biggest drop reason.)"
+    },
+    {
+      "type": "h3",
+      "text": "Cohort D: Blocked Checkout (NEW)"
+    },
+    {
+      "type": "p",
+      "text": "Who: payment/address/OTP error or repeated attempts Window: 5 days Goal: purchase"
+    },
+    {
+      "type": "p",
+      "text": "Creative:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "alternate payment options",
+        "short reassurance",
+        "“complete in 20 seconds” framing",
+        "support fallback"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Cohort E: Trust Seekers"
+    },
+    {
+      "type": "p",
+      "text": "Who: returns/reviews/size viewed (2+ trust actions) but no checkout probe Window: 7 days Goal: assist conversion"
+    },
+    {
+      "type": "p",
+      "text": "Creative: returns, warranty, gifting reassurance, reviews"
+    },
+    {
+      "type": "h3",
+      "text": "Cohort F: Browsers (Suppress)"
+    },
+    {
+      "type": "p",
+      "text": "Who: ATC but no trust, no checkout probe, messy path Action: suppress from paid"
+    },
+    {
+      "type": "p",
+      "text": "The mistake isn’t running retargeting during Christmas; instead, it’s running it on the wrong signals. When you base lists on cart views, you’re paying to chase inflated audiences. When you switch to behavioural depth, price focus, trust cues, and checkout probes, you start spending only on people who are genuinely moving toward a purchase.",
+      "indent": true
+    },
+    {
+      "type": "p",
+      "text": "This is how brands protect retargeting ROI when CPMs spike: not by cutting budgets, but by filtering waste before money leaves the account.",
+      "indent": true
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Push cohorts into Meta + Google (don’t dump everything)"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "High intent → conversion objective, short window",
+        "Delivery Blocked / Cost Shock / Blocked Checkout → their own ad sets with blocker-specific creative",
+        "Browsers → suppressed everywhere"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: Fix the “wrong dates” problem (no hardcoded cutoffs)"
+    },
+    {
+      "type": "p",
+      "text": "Do not hardcode random deadlines in ad copy."
+    },
+    {
+      "type": "p",
+      "text": "Use rules:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "If express delivery is available for the user’s PIN → “still in time”",
+        "If not → “arrives after Christmas” + gift card / New Year angle",
+        "Always match actual ops"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Holiday deadline clarity is a known lever across ecom retention playbooks, but only if it’s true."
+    },
+    {
+      "type": "h2",
+      "text": "Section 3: How to build quality-weighted retargeting cohorts"
+    },
+    {
+      "type": "p",
+      "text": "Stop building audiences around “events.” Build audiences around reasons."
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Define exclusion rules (before anything else)"
+    },
+    {
+      "type": "p",
+      "text": "Exclude from paid retargeting:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "zero checkout probe",
+        "zero trust actions",
+        "no delivery check + no cost exposure",
+        "messy sessions (heavy backtracking + no forward step)"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That group can be nurtured on email/WhatsApp later — but it’s not worth peak-week paid retargeting."
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Build the 6 cohorts (this is the system)"
+    },
+    {
+      "type": "h3",
+      "text": "Cohort A: Buy-Now (High Intent)"
+    },
+    {
+      "type": "p",
+      "text": "Who: checkout probe + at least one trust action Window: 1–3 days Goal: purchase"
+    },
+    {
+      "type": "p",
+      "text": "Meta audience (example):"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Include: /cart OR /checkout",
+        "AND event: CheckoutProbe",
+        "AND TrustActions ≥ 1",
+        "Exclude: Purchasers (7 days)"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Cohort B: Delivery Blocked (NEW)"
+    },
+    {
+      "type": "p",
+      "text": "Who: they checked delivery, and it failed (too late / not available) Window: 3–5 days Goal: convert via alternate path (gift card / after-Christmas delivery / pickup)"
+    },
+    {
+      "type": "p",
+      "text": "Creative: be honest. If it won’t arrive by Christmas, don’t imply it."
+    },
+    {
+      "type": "h3",
+      "text": "Cohort C: Cost Shock"
+    },
+    {
+      "type": "p",
+      "text": "Who: total cost/shipping fee revealed → exit soon after Window: 3–7 days Goal: purchase"
+    },
+    {
+      "type": "p",
+      "text": "Creative:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "free shipping threshold",
+        "bundles that reduce shipping pain",
+        "“no hidden fees” clarity"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "(Baymard: extra costs are the biggest drop reason.)"
+    },
+    {
+      "type": "h3",
+      "text": "Cohort D: Blocked Checkout (NEW)"
+    },
+    {
+      "type": "p",
+      "text": "Who: payment/address/OTP error or repeated attempts Window: 5 days Goal: purchase"
+    },
+    {
+      "type": "p",
+      "text": "Creative:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "alternate payment options",
+        "short reassurance",
+        "“complete in 20 seconds” framing",
+        "support fallback"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Cohort E: Trust Seekers"
+    },
+    {
+      "type": "p",
+      "text": "Who: returns/reviews/size viewed (2+ trust actions) but no checkout probe Window: 7 days Goal: assist conversion"
+    },
+    {
+      "type": "p",
+      "text": "Creative: returns, warranty, gifting reassurance, reviews"
+    },
+    {
+      "type": "h3",
+      "text": "Cohort F: Browsers (Suppress)"
+    },
+    {
+      "type": "p",
+      "text": "Who: ATC but no trust, no checkout probe, messy path Action: suppress from paid"
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Push cohorts into Meta + Google (don’t dump everything)"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "High intent → conversion objective, short window",
+        "Delivery Blocked / Cost Shock / Blocked Checkout → their own ad sets with blocker-specific creative",
+        "Browsers → suppressed everywhere"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: Fix the “wrong dates” problem (no hardcoded cutoffs)"
+    },
+    {
+      "type": "p",
+      "text": "Do not hardcode random deadlines in ad copy."
+    },
+    {
+      "type": "p",
+      "text": "Use rules:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "If express delivery is available for the user’s PIN → “still in time”",
+        "If not → “arrives after Christmas” + gift card / New Year angle",
+        "Always match actual ops"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Holiday deadline clarity is a known lever across ecom retention playbooks, but only if it’s true."
+    },
+    {
+      "type": "h2",
+      "text": "Section 4: Holiday-specific tactics (Christmas + Post-Christmas + New Year)"
+    },
+    {
+      "type": "h2",
+      "text": "Part 1: Christmas week (Dec 18–24)"
+    },
+    {
+      "type": "p",
+      "text": "Rule: every ad must reduce a blocker."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Delivery clarity > generic urgency",
+        "Cost clarity > “biggest sale” shouting",
+        "Payment clarity > “limited time” spam"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 2: Post-Christmas wave (Dec 26–Jan 2) — don’t stop early"
+    },
+    {
+      "type": "p",
+      "text": "Shopping doesn’t end on Dec 25."
+    },
+    {
+      "type": "p",
+      "text": "NRF reports:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "70% plan to shop the week after Christmas",
+        "top reasons: promos (45%) + using gift cards (26%) NRF also reports planned gift card spend of $29B in 2025."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So you need a second wave plan:"
+    },
+    {
+      "type": "h3",
+      "text": "Post-Christmas cohorts"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Gift card users / store credit holders",
+        "Promo responders",
+        "Exchange/return buyers (if you can identify them)"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Post-Christmas creative angles"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "“Use your gift card”",
+        "“Year-end prices”",
+        "“Easy exchanges”",
+        "“Back in stock”"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Post-Christmas windows"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "7–14 days (longer than Christmas week)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 3: New Year (Jan 1–7)"
+    },
+    {
+      "type": "p",
+      "text": "New Year buyers are different:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "self-purchase",
+        "exchanges",
+        "“fresh start” intent"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Treat it as its own set with your best margin SKUs + exchange ease."
+    },
+    {
+      "type": "p",
+      "text": "If you take only one idea from this playbook, take this:"
+    },
+    {
+      "type": "p",
+      "text": "Your best retargeting audiences are not “people who added to cart.” They’re “people who hit a specific blocker and are still recoverable.”",
+      "indent": true
+    },
+    {
+      "type": "p",
+      "text": "So here’s your final operating rule for the last week of the year:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Buy-Now gets your fastest conversion ads (short windows, tight frequency).",
+        "Delivery Blocked gets an honest alternate path (gift card / post-Christmas delivery / pickup).",
+        "Cost Shock gets cost clarity (no surprises, shipping thresholds, bundles).",
+        "Blocked Checkout gets recovery (alternate payment, support, quick completion).",
+        "Browsers get suppressed (or nurtured cheaply), not chased with peak CPMs."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "And don’t stop on Dec 25."
+    },
+    {
+      "type": "p",
+      "text": "NRF’s data makes it clear that the week after Christmas still has demand, driven by promos and gift cards. If you don’t have a post-Christmas wave, you’re turning off your best second chance."
+    },
+    {
+      "type": "p",
+      "text": "Run this like a system for 7 days. You’ll spend less on noise, and more on people who can actually convert — even when the week is expensive."
+    },
+    {
+      "type": "p",
+      "text": "If you want, reply with your category + average AOV + top 2 payment methods, and I’ll tell you which two cohorts usually carry the most revenue for that setup (and what to suppress first)."
+    }
+  ],
+  "otherBlogs": {
+    "heading": "Other Blogs",
+    "cards": [
+      {
+        "label": "PLAYBOOK",
+        "title": "AI Shopping Readiness for Shopify Brands in India",
+        "href": "/blogs/ai-shopping-readiness-for-shopify-brands-in-india",
+        "image": "https://framerusercontent.com/images/sZpz7n2lmt1NPggQA9Lo3Auu510.png?scale-down-to=1024&width=1536&height=1024"
+      },
+      {
+        "label": "BDD",
+        "title": "D2C or DTC: What Indian Brands Should Talk About When They Go Direct",
+        "href": "/blogs/d2c-or-dtc-what-indian-brands-should-talk-about-when-they-go-direct",
+        "image": "https://framerusercontent.com/images/cThhntNn5fp8onw2Se2gib7CpqM.png?scale-down-to=512&width=1672&height=941"
+      },
+      {
+        "label": "GUIDE",
+        "title": "Top 10 Personalisation Strategies to Boost D2C Conversion Rates in India",
+        "href": "/blogs/top-10-personalisation-strategies-to-boost-d2c-conversion-rates-in-india",
+        "image": "https://framerusercontent.com/images/rs6RKrjLeToYBAFe5JOC4gUQaVw.png?scale-down-to=512&width=1672&height=941"
+      },
+      {
+        "label": "GUIDE",
+        "title": "Personalisation in eCommerce in the Age of Generative AI",
+        "href": "/blogs/generative-ai-personalisation-ecommerce",
+        "image": "https://framerusercontent.com/images/RaFL3ET34qWe5BUAeZrGNXtxzAk.png?scale-down-to=512&width=1672&height=941"
+      }
+    ]
+  }
+}

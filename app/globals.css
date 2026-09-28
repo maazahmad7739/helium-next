@@ -1,0 +1,519 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-onest), var(--font-inter), system-ui, sans-serif;
+  --font-display: var(--font-poppins), var(--font-inter), sans-serif;
+  --font-badge: var(--font-dm-sans), sans-serif;
+  --font-micro: var(--font-inter-tight), var(--font-inter), sans-serif;
+  --font-instrument: var(--font-instrument-sans), var(--font-inter), sans-serif;
+  --font-switzer: var(--font-switzer), var(--font-poppins), sans-serif;
+  --font-satoshi: var(--font-satoshi), var(--font-inter), sans-serif;
+  --font-geist: var(--font-geist), var(--font-inter), sans-serif;
+  --font-blog: var(--font-geist), var(--font-inter), sans-serif;
+}
+
+@theme {
+  /* Brand */
+  --color-brand: #00cf94;
+  --color-brand-soft: #54e4b8;
+  --color-brand-dark: #00a876;
+
+  /* Ink / neutrals (verbatim live tokens) */
+  --color-ink: #0d0d0d;
+  --color-ink-2: #131314;
+  --color-ink-3: #050505;
+  --color-ink-4: #09090b;
+
+  /* Paper / surfaces (verbatim) */
+  --color-paper: #ffffff;
+  --color-paper-2: #f8f9fe;
+  --color-paper-3: #f9f7f6;
+
+  /* Live-site text colors (verbatim from Framer inline styles) */
+  --color-grape: #573e69; /* rgb(87,62,105)  — H1/headline text */
+  --color-grape-deep: #271f36; /* rgb(39,31,54)  — section headings */
+  --color-grape-soft: #483953; /* rgb(72,57,83)  — body text */
+  --color-lilac: #9880ab; /* rgb(152,128,171) — captions / secondary CTA text */
+  --color-lavender: #e5dbeb; /* tint surfaces */
+  --color-plum: #6236ad; /* rgb(98,54,173) — ad-stack accent, Contact Us button */
+  --color-violet-link: #6236ad;
+  --color-hero-accent: #8b6cb3; /* hero H1 second line */
+
+  /* Live-site button/link colors */
+  --color-cta-grad-1: #2a135e; /* rgb(42,19,94) */
+  --color-cta-grad-2: #5433a1; /* rgb(84,51,161) */
+  --color-cta-grad-3: #573e69; /* rgb(87,62,105) */
+  --color-nav-hover-1: #6628d3; /* rgb(102,40,211) */
+  --color-nav-hover-2: #d563d9; /* rgb(213,99,217) */
+  --color-hover-tint: #f6eff9; /* rgba(246,239,249,0.8) button hover */
+
+  /* Accents */
+  --color-amber: #ffb407;
+  --color-amber-2: #feb22e;
+  --color-orange: #ff4b20;
+  --color-blue: #1784fb;
+  --color-periwinkle: #d2d1ff;
+  --color-pink: #ff9abe;
+  --color-purple: #a076f9;
+  --color-violet: #774be5;
+
+  /* Catalog hero panel gradient (reference2.md.txt "Hero Section") */
+  --color-catalog-panel-1: rgba(41, 3, 92, 0.99); /* rgb(41,3,92) */
+  --color-catalog-panel-2: rgba(84, 1, 192, 0.8); /* rgb(84,1,192) */
+  --color-catalog-panel-3: rgba(226, 140, 255, 0.8); /* rgb(226,140,255) */
+  --color-catalog-panel-4: rgba(226, 140, 255, 0.4);
+
+  /* Pulse */
+  --color-navy: #0e1c29; /* rgb(14,28,41) — Pulse text on light bg */
+  --color-navy-text: #c8d3e3; /* rgb(200,211,227) pulse copy */
+  --color-navy-chip: #485e79;
+  --color-pulse-bg: #f0f8ffe6; /* live /pulse page background */
+  --color-pulse-violet: #774be5; /* rgb(119,75,229) pulse accent */
+  --color-pulse-panel: #d8dfe5; /* rgb(216,223,229) pulse comparison panel */
+
+  /* Grey ramp */
+  --color-grey-50: #fafafa;
+  --color-grey-100: #f5f5f5;
+  --color-grey-200: #eeeeee;
+  --color-grey-300: #e0e0e0;
+  --color-grey-400: #bdbdbd;
+  --color-grey-500: #9e9e9e;
+  --color-grey-600: #757575;
+  --color-grey-700: #616161;
+  --color-grey-800: #424242;
+  --color-grey-900: #212121;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  ::selection {
+    background-color: var(--color-brand);
+    color: var(--color-ink);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* ============ Typography hierarchy (verbatim live values) ============ */
+
+  /* H1/H2/H3: Poppins Medium, tight tracking, 1em leading */
+  .text-display {
+    font-family: var(--font-poppins), sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    line-height: 1em;
+  }
+
+  /* Section H2 variant: -0.04em (live "Growth solutions…" heading) */
+  .text-display-4 {
+    letter-spacing: -0.04em;
+  }
+
+  /* Live /catalog-optimization display tracking: -3px at display sizes
+     (declared after .text-display so it wins the cascade) */
+  .text-tight {
+    letter-spacing: -0.05em;
+  }
+  @media (min-width: 640px) {
+    .text-tight {
+      letter-spacing: -3px;
+    }
+  }
+
+  /* H2 with 1.15em leading (live footer / large headings) */
+  .text-display-115 {
+    line-height: 1.15em;
+  }
+
+  /* /ad-stack "Helium Smart Ad Stack" title (live Framer breakpoints:
+     34px mobile / 35px â‰¥640 / 50px+plum â‰¥1200) */
+  .adstack-title {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1.2px;
+    color: #310070;
+  }
+  @media (min-width: 640px) {
+    .adstack-title {
+      font-size: 35px;
+      line-height: 1.2;
+    }
+  }
+  @media (min-width: 1200px) {
+    .adstack-title {
+      font-size: 50px;
+      line-height: 1.2;
+      color: rgb(98, 54, 173);
+    }
+  }
+
+  /* /ad-stack tagline under the Smart Ad Stack title */
+  .adstack-tagline {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #46484d;
+  }
+  @media (min-width: 640px) {
+    .adstack-tagline {
+      font-size: 16px;
+      line-height: 1.4;
+    }
+  }
+  @media (min-width: 1200px) {
+    .adstack-tagline {
+      line-height: 1.7;
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  /* /ad-stack "What if you knew exactly" bracket line: purple segment sweeps
+     left -> right along the outline and loops continuously (live Framer
+     strokeEffect loop, 2s tween, gap 1x length). */
+  .adstack-bracket-sweep {
+    stroke-dasharray: 0.2 0.8;
+    stroke-dashoffset: 1;
+    animation: bracket-sweep 2s cubic-bezier(0.44, 0, 0.56, 1) infinite;
+  }
+  @keyframes bracket-sweep {
+    from {
+      stroke-dashoffset: 1;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .adstack-bracket-sweep {
+      animation: none;
+    }
+  }
+
+  /* ============ Shadows (verbatim 3-stop Framer tokens) ============ */
+
+  /* chip shadow — 20x on home */
+  .shadow-chip {
+    box-shadow: 0px 0.48px 1.6298925876617432px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  /* card shadow — 16x on home */
+  .shadow-card {
+    box-shadow:
+      0px 0.421531111242075px 1.264593333726225px -0.3333333333333333px rgba(0, 0, 0, 0.03),
+      0px 1.60197331227042px 4.80591993681126px -0.6666666666666666px rgba(0, 0, 0, 0.04),
+      0px 7px 21px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Comparison tabs card (live #comparison card, 3-stop) */
+  .shadow-tabs {
+    box-shadow:
+      0px 0.602187px 2.04744px -0.25px rgba(0, 0, 0, 0.01),
+      0px 2.28853px 7.78101px -0.5px rgba(0, 0, 0, 0.02),
+      0px 10px 34px -0.75px rgba(0, 0, 0, 0.05);
+  }
+
+  /* lifted purple-glow card — 12x */
+  .shadow-glow {
+    box-shadow: 0px 4px 6px 4px rgba(180, 156, 197, 0.08);
+  }
+
+  /* layered soft shadow (6x) */
+  .shadow-soft {
+    box-shadow:
+      0 0.796192px 0.796192px -0.4375px #00000005,
+      0 2.41451px 2.41451px -0.875px #00000005,
+      0 6.38265px 6.38265px -1.3125px #00000005,
+      0 20px 20px -1.75px #00000008;
+  }
+
+  /* grape-tinted card shadow (3x) */
+  .shadow-grape {
+    box-shadow:
+      0 0.602187px 0.843062px -0.333333px #271f370f,
+      0 2.28853px 3.20395px -0.666667px #271f3717,
+      0 10px 14px -1px #271f3738;
+  }
+
+  /* inset + drop (inputs / pills, 4x) */
+  .shadow-inset {
+    box-shadow:
+      inset 0px -1px 0px 0px rgba(47, 43, 67, 0.1),
+      0px 1px 3px 0px rgba(47, 43, 67, 0.1);
+  }
+
+  /* Pulse #deployment feature card — 6-stop blue-tinted shadow (pulse4.md.txt) */
+  .shadow-pulse-card {
+    box-shadow:
+      rgba(16, 49, 77, 0.05) 0px 0.706592px 0.706592px -0.291667px,
+      rgba(16, 49, 77, 0.06) 0px 1.80656px 1.80656px -0.583333px,
+      rgba(16, 49, 77, 0.06) 0px 3.62176px 3.62176px -0.875px,
+      rgba(16, 49, 77, 0.06) 0px 6.8656px 6.8656px -1.16667px,
+      rgba(16, 49, 77, 0.07) 0px 13.6468px 13.6468px -1.45833px,
+      rgba(16, 49, 77, 0.1) 0px 30px 30px -1.75px;
+  }
+
+  /* Pulse feature icon tile shadow (pulse4.md.txt "icon") */
+  .shadow-pulse-icon {
+    box-shadow:
+      rgba(16, 49, 77, 0.21) 0px 0.796192px 1.43315px -0.875px,
+      rgba(16, 49, 77, 0.2) 0px 2.41451px 4.34611px -1.75px,
+      rgba(16, 49, 77, 0.17) 0px 6.38265px 11.4888px -2.625px,
+      rgba(16, 49, 77, 0.09) 0px 20px 36px -3.5px;
+  }
+
+  /* ============ Radii (verbatim live values) ============ */
+  .rounded-pill-nav { border-radius: 72px; }   /* nav container */
+  .rounded-pill-cta { border-radius: 40px; }   /* CTA buttons */
+  .rounded-pill-navcta { border-radius: 48px; } /* Contact Us button */
+  .rounded-card { border-radius: 20px; }       /* cards/images */
+  .rounded-panel { border-radius: 30px; }      /* large panels */
+  .rounded-tab { border-radius: 32px; }        /* tabs / drawer links */
+  .rounded-badge { border-radius: 100px; }     /* pills */
+
+  /* ============ Gradients (verbatim) ============ */
+  .bg-cta {
+    background: linear-gradient(
+      140deg,
+      rgb(42, 19, 94) 0%,
+      rgb(84, 51, 161) 52%,
+      rgb(87, 62, 105) 100%
+    );
+  }
+
+  /* Catalog hero panel — reference2.md.txt "Hero Section" (desktop stops;
+     mobile uses the same ramp, see .bg-catalog-panel below) */
+  .bg-catalog-panel {
+    background: linear-gradient(
+      180deg,
+      rgba(41, 3, 92, 0.99) 0%,
+      rgba(84, 1, 192, 0.8) 50%,
+      rgba(226, 140, 255, 0.8) 90%,
+      rgba(226, 140, 255, 0.4) 125%
+    );
+  }
+
+  /* Catalog CTA gradient pill (reference2.md.txt "Desktop" button) */
+  .bg-catalog-cta {
+    background: linear-gradient(
+      90deg,
+      rgb(33, 204, 238) 0%,
+      rgb(20, 112, 239) 33.2763%,
+      rgb(105, 39, 218) 68.4697%,
+      rgb(242, 61, 148) 100%
+    );
+  }
+
+  /* Giant "HELIUM AI" clipped gradient text (live: 0deg blue→purple→orange→lavender) */
+  .text-hero-gradient {
+    background-image: linear-gradient(
+      0deg,
+      rgb(0, 10, 255) 0%,
+      rgb(177, 70, 194) 31.0775%,
+      rgb(252, 158, 104) 62.6126%,
+      rgb(166, 169, 250) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  .bg-cta-hover {
+    background: linear-gradient(
+      140deg,
+      rgba(246, 239, 249, 0.8) 0%,
+      rgba(246, 239, 249, 0.8) 50%,
+      rgba(246, 239, 249, 0.8) 100%
+    );
+  }
+  .bg-nav-active {
+    background: linear-gradient(27deg, rgb(102, 40, 211) 23%, rgb(213, 99, 217) 56%);
+  }
+  .bg-card-glass {
+    background: linear-gradient(
+      140deg,
+      rgba(204, 205, 255, 0.7) 4%,
+      rgba(235, 203, 247, 0.7) 60%,
+      rgba(166, 140, 225, 0.7) 103%
+    );
+  }
+
+  /* Marquee edge mask — exact from live ticker (18% / 82%) */
+  .mask-ticker {
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 18%,
+      rgba(0, 0, 0, 1) 82%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 18%,
+      rgba(0, 0, 0, 1) 82%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+
+  /* Pulse double-ticker edge mask — exact from live /pulse
+     "more features" block (12.5% / 87.5%) */
+  .mask-ticker-pulse {
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 12.5%,
+      rgba(0, 0, 0, 1) 87.5%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 12.5%,
+      rgba(0, 0, 0, 1) 87.5%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/* Reverse direction (Pulse bottom ticker row: right → left) */
+@keyframes marquee-reverse {
+  from {
+    transform: translate3d(-50%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Hardware-accelerated infinite ticker (no JS on the hot path) */
+@layer utilities {
+  .animate-ticker {
+    animation: marquee 28s linear infinite;
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+  .animate-ticker-reverse {
+    animation: marquee-reverse 32s linear infinite;
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-ticker {
+      animation: none;
+    }
+    .animate-ticker-reverse {
+      animation: none;
+    }
+  }
+}
+
+@keyframes wordIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Pulse deployment: gentle one-time glow on the Helium check dots (pulse4) */
+@keyframes pulseCheck {
+  0% {
+    box-shadow: 0 0 0 0 rgba(31, 181, 103, 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 6px rgba(31, 181, 103, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(31, 181, 103, 0);
+  }
+}
+
+@layer utilities {
+  .animate-pulse-check {
+    animation: pulseCheck 1.6s cubic-bezier(0.44, 0, 0.56, 1) 1 both;
+    animation-delay: calc(var(--pulse-check-delay, 0) * 1ms);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-pulse-check {
+      animation: none;
+    }
+  }
+}
+
+/* Radix Accordion (shadcn base) — collapse/expand keyframes */
+@keyframes faqExpand {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+  }
+}
+
+@keyframes faqCollapse {
+  from {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+@layer utilities {
+  .animate-faq-expand {
+    animation: faqExpand 0.3s cubic-bezier(0.44, 0, 0.56, 1);
+  }
+  .animate-faq-collapse {
+    animation: faqCollapse 0.3s cubic-bezier(0.44, 0, 0.56, 1);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-faq-expand,
+    .animate-faq-collapse {
+      animation: none;
+    }
+  }
+}
+
+@theme inline {
+  --animate-marquee: marquee 32s linear infinite;
+}
